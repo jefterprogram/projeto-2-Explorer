@@ -1,0 +1,165 @@
+
+
+body {
+
+    margin: 0;
+    overflow: hidden;
+    min-height: 100vh;
+
+
+}
+.page {
+
+    width: 1000px;
+    /*margin: 65px 119px 0;*/
+    padding-top: 65px;
+
+
+}
+header  {
+
+    margin: 65px 58px 122px 153px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+
+}
+
+nav ul {
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 48px;
+    align-items: center;
+    margin-left: 860px;
+    opacity: 0.5;
+
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: #7D7987;
+    
+}
+
+ul li strong {
+
+    color: #000
+}
+
+ul li a:hover {
+
+    font-weight: bold;
+}
+
+main {
+
+    margin: 109px 119px 140.83px 153px;
+    display: flex;
+    align-items: center;
+    gap: 102px;
+
+}
+
+section h1 {
+
+    width: 489px;
+    height: 112px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 56px;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 40px;
+
+}
+
+h1 em {
+
+    color: #89C5CC;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+}
+
+section p {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+
+
+}
+
+section p strong {
+
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+
+    background: #3a856b;
+}
+
+button {
+
+    width: 179px;
+    height: 56px;
+    background: #69B99D;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #F9F9F9;
+    line-height: 20.83px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 15px
+    
+}
+
+footer {
+
+    width: 592px;
+    height: 28px;
+    font-size: 14px;
+    font-weight: 400;    
+    line-height: 28px;
+    font-family: 'Open Sans';
+    color: #7D7987;
+    text-align: center;
+    margin-left: 344px;
+    margin-top: 80px;
+    padding-left: 165px;
+
+}
+
+footer a {
+
+    text-decoration: none;
+    color: #000000
+}
+
+.balls {
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+
+}
